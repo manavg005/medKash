@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+   <link rel="icon" href="assets/images/favicon/favicon.png">
+   <title>Home |MED | GoI</title>
+   <!-- Custom styles for this template -->
+   <link href="assets/css/base.css" rel="stylesheet" media="all">
+   <link href="assets/css/base-responsive.css" rel="stylesheet" media="all">
+   <link href="assets/css/grid.css" rel="stylesheet" media="all">
+   <link href="assets/css/font.css" rel="stylesheet" media="all">
+   <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="all">
+   <link href="assets/css/flexslider.css" rel="stylesheet" media="all">
+   <link href="assets/css/megamenu.css" rel="stylesheet" media="all" />
+   <link href="assets/css/print.css" rel="stylesheet" media="print" />
+   <!-- Theme styles for this template -->
+   <link href="assets/css/megamenu.css" rel="stylesheet" media="all" />
+   <link href="theme/css/site.css" rel="stylesheet" media="all">
+   <link href="theme/css/site-responsive.css" rel="stylesheet" media="all">
+   <link href="theme/css/ma5gallery.css" rel="stylesheet" type="text/css">
+   <link href="theme/css/print.css" rel="stylesheet" type="text/css" media="print">
+   <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+      <![endif]-->
+   <!-- Custom JS for this template -->
+   <noscript>
+      <link href="theme/css/no-js.css" type="text/css" rel="stylesheet">
+   </noscript>
+</head>
+
+<body>
+   <div id="fb-root"></div>
+   <header>
+      <div class="region region-header-top">
+         <div id="block-cmf-content-header-region-block" class="block block-cmf-content first last odd">
+            <noscript class="no_scr">"JavaScript is a standard programming language that is included to provide
+               interactive features, Kindly enable Javascript in your browser. For details visit help page"
+            </noscript>
+            <div class="wrapper common-wrapper">
+               <div class="container common-container four_content top-header">
+                  <div class="common-left clearfix">
+                     <ul>
+                        <li class="gov-india"><span class="responsive_go_hindi" lang="hi"><a target="_blank"
+                                 href="https://india.gov.in/hi"
+                                 title="भारत सरकार ( बाहरी वेबसाइट जो एक नई विंडो में खुलती है)">भारत सरकार</a></span>
+                        </li>
+                        <li class="ministry"><span class="li_eng responsive_go_eng"><a target="_blank"
+                                 href="https://india.gov.in/"
+                                 title="Government of india,External Link that opens in a new window">Government of
+                                 india</a></span></li>
+                     </ul>
+                  </div>
+                  <div class="common-right clearfix">
+                     <ul id="header-nav">
+                        <li class="ico-skip cf"><a href="#skipCont" title="">Skip to main content</a>
+                        </li>
+                        <li class="ico-site-search cf">
+                           <a href="javascript:void(0);" id="toggleSearch" title="Site Search">
+                              <img class="top" src="assets/images/ico-site-search.png" alt="Site Search" /></a>
+                           <div class="search-drop both-search">
+                              <div class="google-find">
+                                 <form method="get" action="http://www.google.com/search" target="_blank">
+                                    <label for="search_key_g" class="notdisplay">Search</label>
+                                    <input type="text" name="q" value="" id="search_key_g" />
+                                    <input type="submit" value="Search" class="submit" />
+                                    <div class="">
+                                       <input type="radio" name="sitesearch" value="" id="the_web" />
+                                       <label for="the_web">The Web</label>
+                                       <input type="radio" name="sitesearch" value="india.gov.in" checked
+                                          id="the_domain" /> <label for="the_domain"> INDIA.GOV.IN</label>
+                                    </div>
+                                 </form>
+                              </div>
+                              <div class="find">
+                                 <form name="searchForm">
+                                    <label for="search_key" class="notdisplay">Search</label>
+                                    <input type="text" name="search_key" id="search_key" onKeyUp="autoComplete()"
+                                       autocomplete="off" required />
+                                    <input type="submit" value="Search" class="bttn-search" />
+                                 </form>
+                                 <div id="auto_suggesion"></div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="ico-accessibility cf">
+                           <a href="javascript:void(0);" id="toggleAccessibility" title="Accessibility Dropdown">
+                              <img class="top" src="assets/images/ico-accessibility.png" alt="Accessibility Dropdown" />
+                           </a>
+                           <ul style="visibility: hidden;">
+                              <li> <a onClick="set_font_size(&#39;increase&#39;)" title="Increase font size"
+                                    href="javascript:void(0);">A<sup>+</sup>
+                                 </a>
+                              </li>
+                              <li> <a onClick="set_font_size()" title="Reset font size"
+                                    href="javascript:void(0);">A<sup>&nbsp;</sup></a> </li>
+                              <li> <a onClick="set_font_size(&#39;decrease&#39;)" title="Decrease font size"
+                                    href="javascript:void(0);">A<sup>-</sup></a> </li>
+                              <li> <a href="javascript:void(0);" class="high-contrast dark" title="High Contrast">A</a>
+                              </li>
+                              <li> <a href="javascript:void(0);" class="high-contrast light" title="Normal Contrast"
+                                    style="display: none;">A</a> </li>
+                           </ul>
+                        </li>
+                        <li class="ico-social cf">
+                           <a href="javascript:void(0);" id="toggleSocial" title="Social Medias">
+                              <img class="top" src="assets/images/ico-social.png" alt="Social Medias" /></a>
+                           <ul>
+                              <li><a target="_blank" title="External Link that opens in a new window"
+                                    href="http://www.facebook.com/"><img alt="Facebook Page"
+                                       src="assets/images/ico-facebook.png"></a></li>
+                              <li><a target="_blank" title="External Link that opens in a new window"
+                                    href="http://www.twitter.com/"><img alt="Twitter Page"
+                                       src="assets/images/ico-twitter.png"></a></li>
+                              <li><a target="_blank" title="External Link that opens in a new window"
+                                    href="http://www.youtube.com/"><img alt="youtube Page"
+                                       src="assets/images/ico-youtube.png"></a></li>
+                           </ul>
+                        </li>
+                        <li class="ico-sitemap cf"><a href="" title="Sitemap">
+                              <img class="top" src="assets/images/ico-sitemap.png" alt="Sitemap" /></a>
+                        </li>
+                        <li class="hindi cmf_lan d-hide">
+                           <label class="de-lag"><span style="display: none;">Language</span>
+                              <select title="Select Language">
+                                 <option>English</option>
+
+                              </select>
+                           </label>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <p id="scroll" style="display: none;"><span></span></p>
+      </div>
+      <!--Top-Header Section end-->
+      <section class="wrapper header-wrapper">
+         <div class="container common-container four_content  header-container">
+            <h2 class="logo">
+               <a href="home.html" title="Home" rel="home" class="header__logo" id="logo">
+                  <img class="national_emblem" src="assets/images/emblem-golden.png" alt="national emblem">
+                  <em><span>यांत्रिक और अस्पताल निदेशालय, कश्मीर</span>
+                     <span> Mechanical and Hospital Directorate, Kashmir </span>
+                     <span>مکینیکل اینڈ ہسپتال ڈائریکٹوریٹ، کشمیر</span>
+                  </em>
+
+               </a>
+
+            </h2>
+            <div class="header-right clearfix">
+               <div class="right-content clearfix">
+                  <div class="float-element">
+                     <a class="sw-logo" href="home.html" title="Home"><img
+                           src="assets/images/medlogo.png" alt="med logo" style="height: 90px; width: 110px;"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--/.header-wrapper-->
+      <section class="wrapper megamenu-wraper">
+         <div class="container common-container four_content">
+            <p class="showhide"><em></em><em></em><em></em></p>
+            <nav class="main-menu clearfix" id="main_menu" style="">
+               <ul class="nav-menu">
+                  <li class="nav-item"> <a href="home.html" class="home"><i class="fa fa-home"></i></a> </li>
+                  <li class="nav-item"> <a href="#">About Us</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="mission.html">Mission</a></li>
+                           <li><a href="vision.html">Vision </a></li>
+                           <li><a href="history.html">History </a></li>
+                           <li><a href="orgchart.html">Organisation Structure</a></li>
+                           <li><a href="achievement.html">Achievements</a></li>
+                           <li><a href="#">Core Competency</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"> <a href="inner.html"> Notices </a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="#">Announcements</a></li>
+                           <li><a href="#">Recruitments</a></li>
+                           <li><a href="#">Circulars</a></li>
+                           <li><a href="#">Events</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"><a href="#"> Publications</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="#">Reports</a></li>
+                           <li><a href="#">Archives</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"><a href="#">Acts & Rules</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="assets/pdfs/rtiAact2005.pdf" target="_blank">Right to Information Act</a></li>
+                           <li><a href="#">Other Act And Rules</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"><a href="#">Tenders</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="gemportal.html">GeM Portal</a></li>
+                           <li><a href="eTendering.html">e-Tendering</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"><a href="#">Schemes</a></li>
+
+                  <li class="nav-item"><a href="#">Services</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="#">Chief Inspector of Boiler</a></li>
+                           <li><a href="#">Chief Inspector of Lifts</a></li>
+                           <li><a href="#">Chief Inspector of Aerial Ropeway</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"><a href="#">Engineers</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="assets/pdfs/CE_MECH.pdf" target="_blank">Chief Engineers</a></li>
+                           <li><a href="assets/pdfs/SE_MECH.pdf" target="_blank">Superintending Engineers</a></li>
+                           <li><a href="assets/pdfs/EE_Mech.pdf" target="_blank">Executive Engineers</a></li>
+                           <li><a href="assets/pdfs/AEE_Mech.pdf" target="_blank">Assistant Executive Engineers</a></li>
+                           <li><a href="assets/pdfs/AE_Mech.pdf" target="_blank">Assistant Engineers</a></li>
+                           <li><a href="assets/pdfs/JE_Mech.pdf" target="_blank">Junior Engineer</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"><a href="#">Division</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="#">Mechanical Division Srinagar</a></li>
+                           <li><a href="#">Mechanical Division Anantnag</a></li>
+                           <li><a href="#">Mechanical Division Baramulla</a></li>
+                           <li><a href="#">Mechanical Hospital and Central Heating Division</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item"><a href="rti.html">RTI</a></li>
+
+                  <li class="nav-item"><a href="contactUs.html">Contact Us</a></li>
+
+               </ul>
+            </nav>
+            <nav class="main-menu clearfix" id="overflow_menu">
+               <ul class="nav-menu clearfix">
+               </ul>
+            </nav>
+         </div>
+      </section>
+   </header>
+   <!--/.nav-wrapper-->
+
+   <!-- image slider under navbar -->
+   <section class="wrapper banner-wrapper">
+      <div id="flexSlider" class="flexslider">
+         <ul class="slides">
+            <li>
+               <img src="theme/images/banner/mechanical.jpeg" alt="Banner 2" title="Description of Banner 2"
+                  style="width: 1800px;height: 450px;">
+               <p class="flex-caption"></p>
+            </li>
+
+            <li>
+               <img src="theme/images/banner/mecimage.jpeg" alt="Banner 3" title="Description of Banner 3e"
+                  style="width: 1800px;height: 450px;">
+               <p class="flex-caption"></p>
+            </li>
+
+            <li>
+               <img src="theme/images/banner/amrit-banner.jpg" alt="Banner 1" title="Description of Banner 1"
+                  style="width: 1800px;height: 450px;">
+               <p class="flex-caption">Azadi Ka Amrit Mahotsav</p>
+            </li>
+            <!-- <li>
+                  <img src="theme/images/banner/Mygovt.jpeg" alt="Banner 2" title="Description of Banner 2" >                  
+                  <p class="flex-caption">My Government</p>
+               </li> -->
+
+
+            <!-- <li>
+                  <img src="theme/images/banner/banner.png" alt="Banner 3" title="Description of Banner 3e" >
+                  <p class="flex-caption">Description of Banner 3 goes here</p>
+               </li> -->
+            <!-- <li>
+                  <img src="theme/images/banner/banner.png" alt="Banner" title="Description of Banner 4">                  
+                  <p class="flex-caption">Description of Banner 4 goes here</p>
+               </li> -->
+         </ul>
+      </div>
+   </section>
+   <div class="wrapper" id="skipCont"></div>
+   <!--/#skipCont-->
+   <section class="news">
+      <div class="container common-container carousel-container">
+         <!-- <h3>NEWS</h3> -->
+         <div id="news-Carousel" class="flexslider carousel ">
+            <ul class="slides">
+               <li><a href="#" title="Latest update 1 goes here">Website is under construction</a></li>
+               <li><a href="#" title="Latest update 2 goes here">Website is under construction</a></li>
+               <li><a href="#" title="Latest update 3 goes here">Website is under construction</a></li>
+         </div>
+      </div>
+   </section>
+   <section id="fontSize" class="wrapper body-wrapper ">
+      <h2 style="display: none;">Body</h2>
+      <div class="bg-wrapper top-bg-wrapper gray-bg padding-top-bott">
+         <div class="container common-container four_content body-container top-body-container padding-top-bott2">
+            <div class="minister clearfix">
+               <div class="minister-box clearfix">
+                  <div class="minister-sub1">
+                     <div class="minister-image"><img src="assets/images/Manoj K Sinha.jpeg" alt="central minster"
+                           style="width: 135x;height: 154px;"></div>
+                     <div class="min-info">
+                        <h2><a href="#">Shri Manoj Sinha</a></h2>
+                        <h3>Hon'ble Lieutenant Governer, J&K</h3>
+                     </div>
+                  </div>
+                  <div class="minister-sub1 state">
+                     <div class="minister-image"><img src="assets/images/rashid1.jpeg" alt="state minster"
+                           style="width: 135x;height: 154px;"></div>
+                     <div class="min-info">
+                        <h2><a href="#">Er. Rashid Ahmad Dar</a></h2>
+                        <h3>Chief Engineer, MED Kashmir</h3>
+                     </div>
+                  </div>
+                  <!-- <div class="minister-sub1 state">
+                        <div class="minister-image"><img src="assets/images/minister.jpg" alt="state minster"></div>
+                        <div class="min-info">
+                           <h2><a href="#">Hon’ble MoS</a></h2>
+                           <h3>Minister Name</h3>
+                        </div>
+                     </div> -->
+               </div>
+            </div>
+            <div class="page-tab clearfix">
+               <div class="page-tab-res clearfix">
+                  <div id="parentHorizontalTab">
+                     <ul class="resp-tabs-list hor_1" id="tab-heading">
+                        <li><a href="#" id="hor_1_tab_item-0">What's New</a></li>
+                        <li><a href="#" id="hor_1_tab_item-1">Press Release</a></li>
+                        <li><a href="#" id="hor_1_tab_item-2">Monthly Achievements</a></li>
+                        <li><a href="#" id="hor_1_tab_item-3">Vacancies</a></li>
+                        <li><a href="#" id="hor_1_tab_item-4">Tenders</a></li>
+                        <li><a href="#" id="hor_1_tab_item-5">Office Memorandum</a></li>
+                     </ul>
+                     <div class="resp-tabs-container hor_1">
+                        <div class="clearfix" id="hor_1_tab_item-0">
+                           <ul class="content_list tenders-list">
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="/assets/pdfs/ROAD POLICY2021.pdf">Procurement, operation and maintenance of
+                                    road construction equipment and allied machinery. </a>
+
+
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">Undertaking of department works like fabrication of heavy steel structures,
+                                    inspection and installation of boilers, procurement and installation of mechanical
+                                    equipment in Non- Engineering Departments. </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">Chief Engineer, MED Kashmir serving as Chief Inspector of Boilers for
+                                    Kashmir Division.</a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">Superintending Engineer, Mechanical Circle Srinagar, MED Kashmir serving as
+                                    Chief Inspector of Lifts for Kashmir Division.</a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">Providing consultancy services to all departments regarding drawing of
+                                    specifications of equipment of various types. </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">Procurement and operation of Snow clearance equipment for Mechanized Snow
+                                    clearance of roads.</a>
+                              </li>
+                           </ul>
+                           <div class="view-footer-tab"> <a href="#" title="Click here to know more about Tenders">
+                                 <span>Read more </span></a></div>
+                        </div>
+                        <div class="clearfix" id="hor_1_tab_item-1">
+                           <ul class="content_list date-list">
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#" title="A pdf file.">
+                                    Description of Press Release 1 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#" title="A pdf file.">
+                                    Description of Press Release 2 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#" title="A pdf file.">
+                                    Description of Press Release 3 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#" title="A pdf file.">
+                                    Description of Press Release 4 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#" title="A pdf file.">
+                                    Description of Press Release 5 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                           </ul>
+                           <div class="view-footer-tab"> <a href="#" title="Click here to know more"> <span>View more
+                                 </span></a></div>
+                        </div>
+                        <div class="clearfix" id="hor_1_tab_item-2">
+                           <ul class="content_list tenders-list">
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">
+                                    Description of Monthly Achievement 1 goes here mm-dd-yyyy - File type (size)
+                                    DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#" title="A pdf file">
+                                    Description of Monthly Achievement 1 goes here mm-dd-yyyy - File type (size)
+                                    DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#" title="A pdf file">
+                                    Description of Monthly Achievement 1 goes here mm-dd-yyyy - File type (size)
+                                    DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                           </ul>
+                           <div class="view-footer-tab"> <a href="#" title="Click here to know more about Tenders">
+                                 <span>Read more </span></a></div>
+                        </div>
+                        <div class="clearfix" id="hor_1_tab_item-3">
+                           <ul class="content_list  list">
+                              <li>
+                                 <i class="fa fa-arrow-right"></i>
+                                 <a href="#">Description of Vacancie 1 goes here - File type (size) DD-MM-YYYY.</a>
+                              </li>
+                              <li>
+                                 <i class="fa fa-arrow-right"></i>
+                                 <a href="#">Description of Vacancie 2 goes here - File type (size) DD-MM-YYYY.</a>
+                              </li>
+                           </ul>
+                           <div class="view-footer-tab"> <a href="#" title="Click here to know more"> <span>View more
+                                 </span></a></div>
+                        </div>
+                        <div class="clearfix" id="hor_1_tab_item-4">
+                           <ul class="content_list tenders-list">
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">
+                                    Description of Tender 1 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <!-- <li>              
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>                                                     
+                                    <a href="#"> 
+                                       Description of Tender 2 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY. 
+                                       <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                    </a>
+                                 </li>
+                                 <li>    
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>                         
+                                    <a href="#"> 
+                                          Description of Tender 3 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY. 
+                                          <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                       </a>
+                                 </li> -->
+                           </ul>
+                           <div class="view-footer-tab"> <a href="#" title="Click here to know more"> <span>View More
+                                 </span></a></div>
+                        </div>
+                        <div class="clearfix" id="hor_1_tab_item-4">
+                           <ul class="content_list tenders-list">
+                              <li>
+                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                 <a href="#">
+                                    Description of Office Memorandum 1 goes here mm-dd-yyyy - File type (size)
+                                    DD-MM-YYYY.
+                                    <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                 </a>
+                              </li>
+                              <!-- <li>              
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>                                                     
+                                    <a href="#"> 
+                                       Description of Office Memorandum 1 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY. 
+                                       <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                    </a>
+                                 </li>
+                                 <li>    
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>                         
+                                    <a href="#"> 
+                                       Description of Office Memorandum 1 goes here mm-dd-yyyy - File type (size) DD-MM-YYYY. 
+                                       <i class="fa fa-file-pdf-o"></i> File type (size) DD-MM-YYYY.
+                                    </a>
+                                 </li> -->
+                           </ul>
+                           <div class="view-footer-tab"> <a href="#" title="Click here to know more"> <span>View More
+                                 </span></a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper home-banner tab-section">
+         <div class="container common-container four_content">
+            <div class="left-block">
+               <div class="box-half">
+                  <div class="vision-mission-wrapper project-tilte">
+                     <h2>Quick Links</h2>
+                     <ul>
+                        <li><a href="#">Engineers of Mechanical Wing</a></li>
+                        <li><a href="#">Quick Link 2</a></li>
+                        <li><a href="#">Quick Link 3</a></li>
+                        <li><a href="#">Quick Link 4</a></li>
+                        <li><a href="#">Quick Link 5</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="box-half">
+                  <div class="whatsnew-wrapper project-tilte">
+                     <h2>Projects / Programs</h2>
+                     <ul>
+                        <li><a href="#">Projects / Programs 1</a></li>
+                        <li><a href="#">Projects / Programs 2</a></li>
+                        <li><a href="#">Projects / Programs 3</a></li>
+                        <li><a href="#">Projects / Programs 4</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="side-links clearfix">
+               <div class="project-tilte">
+                  <h2>In Focus</h2>
+                  <ul>
+                     <li>
+                        <a href="#" title="Link 1">Link 1 </a>
+                     </li>
+                     <li>
+                        <a href="#" title="Link 2">Link 2</a>
+                     </li>
+                     <li>
+                        <a href="#" title="Link 3">Link 3</a>
+                     </li>
+                     <li>
+                        <a href="#" title="Link 4">Link 4</a>
+                     </li>
+                     <li>
+                        <a href="#" title="Link 5">Link 5</a>
+                     </li>
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper home-btm-slider">
+         <div class="container common-container four_content gallery-container">
+            <div class="gallery-area clearfix">
+               <div class="gallery-heading">
+                  <h3>Photo Gallery</h3>
+                  <a class="bttn-more bttn-view" href="#" title="View All About Photo Gallery"><span>View All</span></a>
+               </div>
+               <div class="gallery-holder">
+                  <div id="galleryCarousel" class="flexslider">
+                     <ul class="slides">
+                        <li data-thumb="assets/images/img1.jpeg" data-thumb-alt="slider1">
+                           <img src="assets/images/img1.jpeg" alt="gallery iamge" />
+                        </li>
+                        <li data-thumb="assets/images/img2.jpeg" data-thumb-alt="slider2">
+                           <img src="assets/images/img2.jpeg" alt="gallery iamge" />
+                        </li>
+                        <li data-thumb="assets/images/img4.jpeg" data-thumb-alt="slider3">
+                           <img src="assets/images/img4.jpeg" alt="gallery iamge" />
+                        </li>
+                        <!-- <li data-thumb="theme/images/crousal/1.jpg" data-thumb-alt="slider3">
+                           <img src="theme/images/crousal/1.jpg" alt="gallery iamge" />
+                        </li> -->
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="gallery-right">
+               <div class="video-heading">
+                  <h3>Video Gallery</h3>
+                  <a class="bttn-more bttn-view" href="#" title="View All About video"><span>View All</span></a>
+               </div>
+               <div class="video-wrapper">
+                  <video src="theme/images/video/Video1.mp4" poster="theme/images/video/video1 banner.png">
+                     <span>Your browser does not support HTML5 video.</span>
+                  </video>
+               </div>
+               <!-- <div class="video-wrapper">
+                     <video src="#" poster="theme/images/crousal/1.jpg">
+                        <span>Your browser does not support HTML5 video.</span>
+                     </video>
+                  </div> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--/.body-wrapper-->
+   <!--/.banner-wrapper-->
+   <section class="wrapper carousel-wrapper">
+      <div class="container common-container four_content carousel-container">
+         <div id="flexCarousel" class="flexslider carousel">
+            <ul class="slides">
+               <li><a target="_blank" href="http://digitalindia.gov.in/"
+                     title="Digital India, External Link that opens in a new window">
+                     <img src="assets/images/carousel/digital-india.png" alt="Digital India"></a>
+               </li>
+               <li><a target="_blank" href="http://www.makeinindia.com/"
+                     title="Make In India, External Link that opens in a new window">
+                     <img src="assets/images/carousel/makeinindia.png" alt="Make In India"></a>
+               </li>
+               <li><a target="_blank" href="http://india.gov.in/"
+                     title="National Portal of India, External Link that opens in a new window">
+                     <img src="assets/images/carousel/india-gov.png" alt="National Portal of India"></a>
+               </li>
+               <li><a target="_blank" href="http://goidirectory.nic.in/"
+                     title="GOI Web Directory, External Link that opens in a new window">
+                     <img src="assets/images/carousel/goidirectory.png" alt="GOI Web Directory"></a>
+               </li>
+               <li><a target="_blank" href="https://data.gov.in/"
+                     title="Data portal, External Link that opens in a new window">
+                     <img src="assets/images/carousel/data-gov.png" alt="Data portal"></a>
+               </li>
+               <li><a target="_blank" href="https://mygov.in/" title="MyGov, External Link that opens in a new window">
+                     <img src="assets/images/carousel/mygov.png" alt="MyGov Portal"></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+   <!--/.carousel-wrapper-->
+   <footer class="wrapper footer-wrapper">
+      <div class="footer-top-wrapper">
+         <div class="container common-container four_content footer-top-container">
+            <ul>
+               <li><a href="inner.html">Website policies</a></li>
+               <li><a href="inner.html">Terms and Conditions </a></li>
+               <li><a href="inner.html">Help</a></li>
+               <li><a href="inner.html">Web Information Manager</a></li>
+               <li><a href="inner.html">FAQ</a></li>
+               <li><a href="inner.html">Feedback</a></li>
+               <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-bottom-wrapper">
+         <div class="container common-container four_content footer-bottom-container">
+            <div class="footer-content clearfix">
+               <!-- <div class="copyright-content"> Website Content Managed by <strong>Department Name, Ministry Name,
+                  </strong> -->
+                  <span>Designed, Developed and Hosted by
+                     <a target="_blank" title="JaKeGA, External Link that opens in a new window" href="https://jakega.jk.gov.in/">
+                        <strong>Jammu and Kashmir eGovernance Agency</strong>
+                     </a>
+                     <strong> ( JaKeGA )</strong>
+                  </span>
+               </div>
+               <div class="last-updated">
+                  <strong>Last Updated: 23-01-2023</strong>
+               </div>
+            </div>
+         </div>
+      
+   </footer>
+   <!--/.footer-wrapper-->
+   <!-- jQuery v1.11.1 -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+      integrity="sha512-nhY06wKras39lb9lRO76J4397CH1XpRSLfLJSftTeo3+q2vP7PaebILH9TqH+GRpnOhfAGjuYMVmVTOZJ+682w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- jQuery Migration v1.4.1 -->
+   <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+   <!-- jQuery v3.6.0 -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- jQuery Migration v3.4.0 -->
+   <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+
+   <script src="assets/js/jquery-accessibleMegaMenu.js"></script>
+   <script src="assets/js/framework.js"></script>
+   <script src="assets/js/jquery.flexslider.js"></script>
+   <script src="assets/js/font-size.js"></script>
+   <script src="assets/js/swithcer.js"></script>
+   <script src="theme/js/ma5gallery.js"></script>
+   <script src="assets/js/megamenu.js"></script>
+   <script src="theme/js/easyResponsiveTabs.js"></script>
+   <script src="theme/js/custom.js"></script>
+</body>
+
+</html>
