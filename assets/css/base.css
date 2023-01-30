@@ -1297,3 +1297,15 @@ a:focus{
     color: #fff;
     background: #344aa0;
 }
+
+
+@media all {
+    .embed-responsive{
+        position:absolute;
+        margin-top: 1%; 
+        margin-left:50%; 
+        border:0
+    
+    }
+    }
+    
